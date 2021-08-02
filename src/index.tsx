@@ -2,11 +2,23 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import ClickCounter from './ClickCounter';
+import CounterApp from './CounterApp';
+import Game from './Game';
+import ShoppingList from './ShoppingList';
+import AdmissionFeeCalculator from './AdmissionFeeCalculator';
+import BookStocker from './BookStocker';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <App />
+    <ClickCounter />
+    <CounterApp />
+    <BookStocker />
+    <Game />
+    <ShoppingList />
+    <AdmissionFeeCalculator />
   </React.StrictMode>,
   document.getElementById('root')
 );
